@@ -3,9 +3,17 @@
   <head>
     <title>OMDB Client</title>
   <meta charset ="utf-8">
+  <link rel="stylesheet" href="/css/omdb.css">
   </head>
   <body>
     <h1>Movies Movies Movies!</h1>
+    <form action="index.html" method="GET" id="input">
+      <input type="search" name="search-bar" id="search" placeholder="search">
+      <button type="submit" name="button">Find Movies</button>
+    </form>
+    <div class="results" id="results">
+
+    </div>
 
     <script src="/js/index.js"></script>
 

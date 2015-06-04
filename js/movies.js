@@ -18,7 +18,10 @@ request.addEventListener('load', function(){
   for (var key in responseInfo){
     keyValuePairs += key +": "+ responseInfo[key] +"<p>";
   }
+
   document.body.innerHTML = keyValuePairs;
+
   })
+
 
 request.send();
